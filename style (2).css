@@ -1,0 +1,31 @@
+body {
+    background-color: linen;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 60px;
+    font-size: 120px;
+}
+
+.tomatoColor {
+    color: tomato;
+}
+
+.navyColor {
+    color: navy;
+}
+
+h1.name1 {
+    color: blueviolet;
+    background-color: brown;
+}
+
+p {
+    color: red;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    font-family: Verdana, serif;
+    font-size: 40px;
+}
