@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(129, 128, 128);
+    font-family: sans-serif;
+}
+
+.header{
+    margin-left: 40px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+.pointer {
+    cursor: pointer;
+}
+.games{
+    display: flex;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+}
+
+.cards > div{
+    flex: 1 1 0%;
+    background-color: rgb(222, 222, 222);
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+
+.imagerose{
+    background-color: rosybrown;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.imagegreen{
+    background-color: rgb(127, 247, 127);
+    height: 250px;
+    border-radius: 5px;
+
+}
+
+.imageblue{
+    background-color: aqua;
+    height: 250px;
+    border-radius: 5px;
+}
