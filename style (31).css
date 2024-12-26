@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px;
+    background: #f0f0f0;
+    padding: 20px;
+    min-height: 200px;
+}
+
+.box {
+    padding: 20px;
+    background: #3498db;
+    color: white;
+    margin: 5px;
+}
+
+.task1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.task3{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.task4{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.task5{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.task6{
+    display: flex;
+}
+
+.task6 .sidebar{
+    background-color: black;
+    width: 200px;
+}
+
+.task6 .content{
+    flex: 1 1 auto;
+}
+
+.task7{
+    display: flex;
+    justify-content: center;
+}
+
+.task7 .box{
+    width: 200px;
+}
+
+.task8{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.task8 .footer{
+    background-color: black;
+}
+
+.task9{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task9 .main-content{
+    flex: 1 1 0%;
+}
+
+.task9 .box:not(div){
+    background-color: black;
+    width: 100%;
+} 
+
+.task9 .left-sidebar{
+    width: 200px;
+}
+
+.task9 .right-sidebar{
+    width: 200px;
+}
+
+.task10{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task10 .box{
+    flex: 1 1 30%;
+}
