@@ -1,0 +1,57 @@
+/*font manipulation */
+h1{color: blueviolet;}
+h2{font-family: sans-serif;}
+h3{background-color: aquamarine;}
+p{text-decoration: underline;}
+i{text-align: center;}
+b{font-size: 130px; color: rebeccapurple;}
+
+h3{
+    font-weight: lighter;
+    line-height: 2em;
+    letter-spacing: 15px;
+    color:yellow;
+}
+
+.first-parent .first-child{
+    background-color: violet;
+    font-weight:200;
+}
+
+.first-parent p{
+    background-color: turquoise;
+    font-size: medium;
+}
+
+.first-parent .second-child{
+    color: tomato;
+    font-size: smaller;
+}
+
+.first-parent .second-parent p{
+    background-color: yellow;
+    color: violet;
+    text-decoration: double;    
+}
+.second-parent .a1 p{
+    font-family: serif;
+    text-align: center;
+    color: tomato;
+    background-color: yellowgreen;
+}
+
+.second-parent .a1 .b2 p{
+    background-color: turquoise;
+    color: rgb(65, 13, 4);
+    text-decoration: double;
+}
+
+.second-parent .a1 span{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+.second-parent .a2{
+    color: yellow;
+    font-size: larger;
+}
