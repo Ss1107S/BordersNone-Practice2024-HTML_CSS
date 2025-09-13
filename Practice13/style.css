@@ -1,0 +1,92 @@
+.first h2 ~ p{
+    color: red;
+}
+
+/*
+.children-2 h2 ~ :not(p){
+    color: blueviolet;
+}
+*/
+
+.first ~ p p p p p p{
+    color: red;
+}
+
+/*
+.second h2 ~:not(p){
+    color: red;
+}
+*/
+
+.first p~h2{
+    color: brown;
+}
+
+/*
+.second h2 + p{
+    color: coral;
+}
+*/
+
+/*
+.second .wrapper :not(h2,h2+p,h2+p+p,h2+p+p+p,h2+p+p+p+p,h3,h3+p,div.second-1+p,h4,h4+p)  {
+    color: blueviolet;
+} 
+*/    
+/*
+.second .wrapper p ~ p:not(header){
+    color: blueviolet;
+}
+*/
+/*
+.second .wrapper p:nth-child(-n+3){
+    color: blueviolet;
+}
+*/
+/*
+.second .wrapper p:nth-of-type(-n+3){
+    color: blueviolet;
+}
+*/
+/*
+.second .wrapper p ~ p:not(:is(.second-1, :invalid-pseudo-class)){
+    color: blueviolet;
+}
+*/
+.second > div > p:not(h2~p){
+    color: green;
+}
+
+.second .wrapper p ~ .wrapper:not(:is(.second-1, :invalid-pseudo-class)){
+    color: blueviolet;
+}
+
+
+
+/*
+body h4 ~ p span {
+    color: blue;
+}
+*/
+
+.example-1 .target{
+    color: orange;
+}
+
+:matches(.example-1 > children-1){
+    color: yellow;
+}
+
+/*
+.example-1.example-2 > children-2{
+    color: yellowgreen;
+}
+*/
+
+:is(.example-1.example-2) > children-2{
+    color: violet;
+}
+
+.example-1.children-1 > footer > example-1-1{
+    color: violet;
+}
