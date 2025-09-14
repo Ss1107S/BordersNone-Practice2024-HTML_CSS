@@ -1,0 +1,51 @@
+body, html{
+    margin: 0;
+}
+
+.image img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text{
+    position: absolute;
+    top: 45%;
+    font-family: 'Arial Narrow Bold', serif;
+    display: flex;
+    color: white;
+
+}
+
+.text1{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.text2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.button{
+    top: 60%;
+    right: 45%;
+    font-family: 'Arial Narrow Bold', serif;
+    display: flex;
+    position: absolute;
+}
+.click{
+    position: relative;
+    color: rgb(16, 1, 65);
+    align-items: center;
+    display: flex;
+    font-family: 'Arial Narrow Bold', serif;
+    border-radius: 5px;
+    background-color: rgb(116, 184, 240);
+}
