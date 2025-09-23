@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(74, 74, 248);
+    height: 120%;
+    font-family: sans-serif;
+    color: white;
+}
+
+.heading{
+    margin-right: 50px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading li{
+    margin: 0 10px;
+    flex: 0 1 auto;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    display: flex;
+}
+
+a {
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.heading .logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+}
+
+.heading .home{
+    margin-left: auto;    
+
+}
+
+.heading .get{
+    font-weight: bold;
+}
+
+.heading button{
+    background-color:  rgba(74, 74, 248, 0.611);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 0 25px;
+}
+
+.heading li h3:not(.home):not(.get):hover{
+    color: rgb(112, 112, 239);
+}
+
+.heading button:hover{
+    background-color: rgb(28, 28, 208);
+}
+
+.main{
+    margin-top: 120px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    display: flex;
+}
+
+.main h1{
+    font-size: 50px;
+}
+
+.main p{
+    font-size: 20px;
+}
+
+.main button{
+    margin-top: 220px;
+}
+
+.main .first_b{
+    color: rgb(74, 74, 248);
+    background-color: white;
+    border-radius: 35px;
+    padding: 8px 40px;
+    border: none;
+    margin-left: 460px;
+}
+
+.main .second_b{
+    color: white;
+    background-color: rgb(74, 74, 248);
+    border: 1px solid white;
+    border-radius: 35px;
+    padding: 8px 40px;
+    margin-left: 40px;
+}
